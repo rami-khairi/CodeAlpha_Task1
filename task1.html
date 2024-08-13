@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <script src="task1.js"></script>
+  <link rel="stylesheet" href="task1.css">
+  <title>IMAGE GALLERY</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Filter Buttons-->
+    <div class="f_buttons">
+      <button id="all" onclick="filterImages('all')">Show all</button>
+      <button id="nature" onclick="filterImages('nature')">Nature</button>
+      <button id="car" onclick="filterImages('car')">Car</button>
+      <button id="animals" onclick="filterImages('animals')">Animals</button>
+    </div>
+    <div class="gallery">
+      <img src="images/nature1.png" class="nature">
+      <img src="images/car1.png" class="car">
+      <img src="images/animal1.png" class="animals">
+      <img src="images/nature2.png" class="nature">
+      <img src="images/car2.png" class="car">
+      <img src="images/animal2.png" class="animals">
+      <img src="images/nature3.png" class="nature">
+      <img src="images/car3.png" class="car">
+      <img src="images/animal3.png" class="animals">
+      <img src="images/nature4.png" class="nature">
+      <img src="images/car4.png" class="car">
+      <img src="images/animal4.png" class="animals">
+      <img src="images/nature5.png" class="nature">
+      <img src="images/car5.png" class="car">
+      <img src="images/animal5.png" class="animals">
+      <img src="images/nature6.png" class="nature">
+      <img src="images/car6.png" class="car">
+      <img src="images/animal6.png" class="animals">
+      <img src="images/nature7.png" class="nature">
+      <img src="images/car7.png" class="car">
+      <img src="images/animal7.png" class="animals">
+      <img src="images/nature8.png" class="nature">
+      <img src="images/car8.png" class="car">
+      <img src="images/animal8.png" class="animals">
+    </div>
+  </div>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+</body>
+</html>
